@@ -1,0 +1,81 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  color: #fcfbf7;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+.navbar-brand {
+    color: #fcfbf7 !important;
+
+}
+
+.nav-link:hover { 
+
+    color: #fff9e0 !important; 
+}
+    
+
+.nav-link {
+    color: #fcfbf7 !important;
+    }
+
+.text { 
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 60%; 
+    margin-left: -300px;
+    margin-top: -300px;
+    color: #fcfbf7;
+}
+
+.table {
+    margin-top:100px
+}
+
+h1 {
+  letter-spacing: 8px;
+  color: #fcfbf7;
+  vertical-align: middle;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.table td {
+    border: none !important;
+    color: #fcfbf7;
+}
+
